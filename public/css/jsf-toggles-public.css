@@ -1,0 +1,18 @@
+.jet-filter-label:not(.noicon):after {
+    content: var(--jsf-toggle-content);
+    font-family: var(--jsf-toggle-family);
+    position: var(--jsf-toggle-icon-type);
+    float: var(--jsf-toggle-icon-type2);
+    margin-right: var(--jsf-toggle-icon-mr);
+    right: var(--jsf-toggle-icon-pr);
+    transition: var(--jsf-toggle-icon-ease);
+}
+.jet-filter-label.collapsed:not(.noicon):after {
+    transform: var(--jsf-toggle-icon-collapsed);
+}
+.jet-filter-label:not(.notoggle) {
+    cursor: pointer;
+}
+.jet-filter-label {
+    background: var(--jsf-toggle-background);
+}
